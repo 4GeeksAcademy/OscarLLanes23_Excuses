@@ -28,6 +28,6 @@ window.onload = function() {
 
   let paragraph = document.getElementById("excuse");
 
-  paragraph.innerHTML = who[whoRandom] + " " + action[actionRandom];
+  paragraph.innerHTML = who[whoRandom] + " " + action[actionRandom]
   +" " + what[whatRandom] + " " + when[whenrandom];
 };
